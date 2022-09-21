@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#hero .profile-img {
+    width: 250px;
+    border-radius: 70%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    font-color: #1f1f25;
+    display: inline;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-color: #1f1f25;
+}
+
+section h3 {
+    font-size: 1.5em;
+
+}
+
+header a {
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('https://thumbs.dreamstime.com/b/abstract-mood-series-website-background-color-images-high-resolution-abstract-mood-backgrounds-images-designed-use-websites-157859506.jpg')
+    } 
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://thumbs.dreamstime.com/b/abstract-mood-series-website-background-color-images-high-resolution-abstract-mood-backgrounds-images-designed-use-websites-157859506.jpg')
+
+}
+
+#achievements {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://thumbs.dreamstime.com/b/abstract-mood-series-website-background-color-images-high-resolution-abstract-mood-backgrounds-images-designed-use-websites-157859506.jpg')
+    } 
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://thumbs.dreamstime.com/b/abstract-mood-series-website-background-color-images-high-resolution-abstract-mood-backgrounds-images-designed-use-websites-157859506.jpg')
+    } 
